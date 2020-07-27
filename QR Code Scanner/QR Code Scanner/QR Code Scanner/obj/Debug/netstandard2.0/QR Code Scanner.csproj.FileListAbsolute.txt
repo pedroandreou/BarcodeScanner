@@ -12,3 +12,17 @@ C:\Users\user\source\repos\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\D
 C:\Users\user\source\repos\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\ref\QR Code Scanner.dll
 C:\Users\user\source\repos\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\QR Code Scanner.pdb
 C:\Users\user\source\repos\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\QR Code Scanner.csprojAssemblyReference.cache
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\bin\Debug\netstandard2.0\QR Code Scanner.deps.json
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\bin\Debug\netstandard2.0\QR Code Scanner.dll
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\bin\Debug\netstandard2.0\ref\QR Code Scanner.dll
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\bin\Debug\netstandard2.0\QR Code Scanner.pdb
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\QR Code Scanner.csprojAssemblyReference.cache
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\QR Code Scanner.AssemblyInfoInputs.cache
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\QR Code Scanner.AssemblyInfo.cs
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\QR Code Scanner.dll
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\ref\QR Code Scanner.dll
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\QR Code Scanner.pdb
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\QR Code Scanner.csproj.CoreCompileInputs.cache
+E:\Unity Personal\Peter\mymainrepo\QR Code Scanner\QR Code Scanner\QR Code Scanner\obj\Debug\netstandard2.0\XamlC.stamp

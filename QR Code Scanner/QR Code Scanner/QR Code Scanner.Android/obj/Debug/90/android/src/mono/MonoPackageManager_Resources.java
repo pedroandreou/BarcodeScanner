@@ -4,7 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "QR Code Scanner.Android.dll" comes first in this list. */
 		"QR Code Scanner.Android.dll",
 		"FastAndroidCamera.dll",
+		"Flurl.dll",
+		"Flurl.Http.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"QR Code Scanner.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

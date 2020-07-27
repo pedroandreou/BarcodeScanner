@@ -21,22 +21,20 @@ namespace QR_Code_Scanner
 
         private async void btnScan_Clicked(object sender, EventArgs e)
         {
+            var items = await this.api.ListStockStoresItem("A-B-C-AZURE-340");
             try
             {
                 var scanner = DependencyService.Get<IQrScanningService>();
+
                 var result = await scanner.ScanAsync();
                 if (result != null)
                 {
                     txtBarcode.Text = result;
                 }
-
-                var ok = await this.api.TestConnection();
-
             }
             catch (Exception ex)
             {
 
-                throw;
             }
         }
     }
