@@ -11,8 +11,11 @@ namespace QR_Code_Scanner
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        private readonly Api api;
+
+        public MainPage(Api api)
         {
+            this.api = api;
             InitializeComponent();
         }
 
@@ -26,6 +29,9 @@ namespace QR_Code_Scanner
                 {
                     txtBarcode.Text = result;
                 }
+
+                var ok = await this.api.TestConnection();
+
             }
             catch (Exception ex)
             {
