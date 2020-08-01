@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using QR_Code_Scanner;
 using QR_Code_Scanner.Services;
+using Xamarin.Forms.Internals;
 
 namespace QR_Code_Scanner
 {
@@ -21,7 +22,6 @@ namespace QR_Code_Scanner
 
         private async void btnScan_Clicked(object sender, EventArgs e)
         {
-            var items = await this.api.ListStockStoresItem("A-B-C-AZURE-340");
             try
             {
                 var scanner = DependencyService.Get<IQrScanningService>();
@@ -31,6 +31,23 @@ namespace QR_Code_Scanner
                 {
                     txtBarcode.Text = result;
                 }
+
+                var items = await this.api.ListStockStoresItem(txtBarcode.Text);
+
+                if (items.Length == 0)
+                {
+                    Console.WriteLine("No items found!");
+                    return;
+                }
+
+                items.ToList().ForEach(item =>
+                {
+                    // Print all items u want here
+                    Console.WriteLine("Item name", item.item_name);
+                   // etsi apla dame kame print oula ta props p thelis so item name, stock, item code, store name
+                   //let me try one
+
+                });
             }
             catch (Exception ex)
             {

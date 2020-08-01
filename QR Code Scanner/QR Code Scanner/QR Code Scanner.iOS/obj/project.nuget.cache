@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "7QLU6+a9r5MjqkgDk31XC80De8JV24qV+ZvdoTcjknvEeaxqY86yK5FhvmwWzb1N1b/Z4QPnSDRPw51ZxahQSQ==",
+  "dgSpecHash": "6KkeLhfX3OA29ime15J23yie5Sbh6EzS56tD87yEcFbiTdQaNIc8ERYp/ZzWIYiz6fVWqfgHG819i6lAq2OsVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.iOS\\QR Code Scanner.iOS.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.iOS\\QR Code Scanner.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\flurl\\2.8.2\\flurl.2.8.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\flurl.http\\2.4.2\\flurl.http.2.4.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
@@ -28,7 +35,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.7.0.1142 to 4.5.0.495. Reference the package directly from the project to select a different version. \r\n QR Code Scanner.iOS -> QR Code Scanner -> Xamarin.Forms (>= 4.7.0.1142) \r\n QR Code Scanner.iOS -> Xamarin.Forms (>= 4.5.0.495)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.7.0.1179 to 4.5.0.495. Reference the package directly from the project to select a different version. \r\n QR Code Scanner.iOS -> QR Code Scanner -> Xamarin.Forms (>= 4.7.0.1179) \r\n QR Code Scanner.iOS -> Xamarin.Forms (>= 4.5.0.495)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

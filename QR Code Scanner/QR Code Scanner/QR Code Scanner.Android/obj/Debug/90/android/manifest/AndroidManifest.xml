@@ -6,8 +6,8 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="QR_Code_Scanner.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="QR_Code_Scanner" android:theme="@style/MainTheme" android:name="crc64044580a4d51e28a6.MainActivity">
+  <application android:label="QR_Code_Scanner.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon1" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon1" android:label="Best Look" android:theme="@style/MainTheme" android:name="crc64044580a4d51e28a6.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
