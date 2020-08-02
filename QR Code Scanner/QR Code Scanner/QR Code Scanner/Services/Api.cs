@@ -1,5 +1,6 @@
 ﻿using Flurl;
 using Flurl.Http;
+using Newtonsoft.Json;
 using QR_Code_Scanner.Models;
 using System;
 using System.Collections.Generic;

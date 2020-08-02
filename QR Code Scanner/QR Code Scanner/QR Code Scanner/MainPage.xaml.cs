@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using QR_Code_Scanner;
 using QR_Code_Scanner.Services;
-using Xamarin.Forms.Internals;
 
 namespace QR_Code_Scanner
 {
@@ -26,13 +21,13 @@ namespace QR_Code_Scanner
             {
                 var scanner = DependencyService.Get<IQrScanningService>();
 
-                var result = await scanner.ScanAsync();
-                if (result != null)
+                var barCode = await scanner.ScanAsync();
+                if (String.IsNullOrEmpty(barCode))
                 {
-                    txtBarcode.Text = result;
+                    return;
                 }
 
-                var items = await this.api.ListStockStoresItem(txtBarcode.Text);
+                var items = await this.api.ListStockStoresItem(barCode);
 
                 if (items.Length == 0)
                 {
@@ -40,14 +35,7 @@ namespace QR_Code_Scanner
                     return;
                 }
 
-                items.ToList().ForEach(item =>
-                {
-                    // Print all items u want here
-                    Console.WriteLine("Item name", item.item_name);
-                   // etsi apla dame kame print oula ta props p thelis so item name, stock, item code, store name
-                   //let me try one
-
-                });
+                StockStoresItemsView.ItemsSource = items;
             }
             catch (Exception ex)
             {

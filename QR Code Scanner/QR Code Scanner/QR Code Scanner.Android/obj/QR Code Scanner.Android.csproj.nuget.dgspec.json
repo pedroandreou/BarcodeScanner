@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\QR Code Scanner.Android.csproj": {}
+    "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\QR Code Scanner.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\QR Code Scanner.Android.csproj": {
+    "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\QR Code Scanner.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\QR Code Scanner.Android.csproj",
+        "projectUniqueName": "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\QR Code Scanner.Android.csproj",
         "projectName": "QR Code Scanner.Android",
-        "projectPath": "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\QR Code Scanner.Android.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\obj\\",
+        "projectPath": "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\QR Code Scanner.Android.csproj",
+        "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
+        "outputPath": "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj"
+              "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj": {
+                "projectPath": "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj"
               }
             }
           }
@@ -62,20 +62,21 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj": {
+    "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj",
+        "projectUniqueName": "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj",
         "projectName": "QR Code Scanner",
-        "projectPath": "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\obj\\",
+        "projectPath": "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner.csproj",
+        "packagesPath": "C:\\Users\\Steve\\.nuget\\packages\\",
+        "outputPath": "E:\\Unity Personal\\Peter\\mymainrepo\\QR Code Scanner\\QR Code Scanner\\QR Code Scanner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Steve\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

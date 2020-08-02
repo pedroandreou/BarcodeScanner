@@ -7,11 +7,41 @@
              x:Class="QR_Code_Scanner.MainPage">
 
     <StackLayout Spacing="100">
-        <Button Text="PRESS HERE MR DOROS"  
+        <Button Text="PRESS HERE TO SCAN"  
                 x:Name="btnScan"  
                 Clicked="btnScan_Clicked"/>
-        <Entry x:Name="txtBarcode"  
-               Placeholder="Text Do Scan"/>
+
+
+        <ListView x:Name="StockStoresItemsView" HasUnevenRows="True" Margin="15,5,5,5">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Store Name: " TextColor="Black"></Label>
+                                <Label Text="{Binding store_name}" TextColor="Black"></Label>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Item Name: " TextColor="Black"></Label>
+                                <Label Text="{Binding item_name}" TextColor="Black"></Label>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Item Code: " TextColor="Black"></Label>
+                                <Label Text="{Binding item_code_365}" TextColor="Black"></Label>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Stock: " TextColor="Black"></Label>
+                                <Label Text="{Binding stock}" TextColor="Black"></Label>
+                            </StackLayout>
+                            <BoxView HeightRequest="1" Color="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>
